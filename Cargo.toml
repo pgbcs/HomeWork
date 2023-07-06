@@ -1,0 +1,20 @@
+[package]
+name = "hello_cargo"
+version = "0.1.0"
+edition = "2021"
+
+[[test]]
+name = "conditions"
+path = "./src/conditions.rs"
+
+[[test]]
+name = "strings"
+path = "./src/strings.rs"
+
+[[test]]
+name = "functions"
+path = "./src/functions.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
